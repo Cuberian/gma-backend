@@ -28,8 +28,8 @@ app.use("/api", baseRouter)
 app.use(errorHandler)
 
 // Server running
-// app.listen(port, () =>
-//     console.log(`Listening on port ${port}`)
-// );
+app.listen(port, () =>
+    console.log(`Listening on port ${port}`)
+);
 
 export default app
