@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     // Современный JS
+    "module": "NodeNext",                     // ESM поддержка
+    "moduleResolution": "NodeNext",         // Для корректной работы с ESM в Node
+    "outDir": "./dist",                     // Каталог вывода
+    "rootDir": ".",                         // Корень исходников
+    "allowSyntheticDefaultImports": true,   // Позволяет использовать import x from
+    "esModuleInterop": true,                // Интероп с CommonJS модулями
+    "resolveJsonModule": true,              // Позволяет импортировать JSON
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "scripts"]
+}
